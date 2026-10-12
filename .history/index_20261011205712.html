@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodify</title>
+</head>
+
+<body>
+    <!-- === HTML STARTS here===-->
+    <header>
+        <h1>Period<span>ify</span></h1>
+        <p>Hover (or tap) an element and you can hover over the legend to isolate that specific group.</p>
+    </header>
+    <!-- === Legend === -->
+    <ul class="legend">
+        <li class="k-ak" style="--c: var(--ak);">Alkali metals</li>
+        <li class="k-ae" style="--c: var(--ae);">Alkaline earth metals</li>
+        <li class="k-tm" style="--c: var(--tm);">Transition metals</li>
+        <li class="k-pt" style="--c: var(--pt);">Post-transition metals</li>
+        <li class="k-md" style="--c: var(--md);">Metalloids</li>
+        <li class="k-nm" style="--c: var(--nm);">Nonmetals</li>
+        <li class="k-hg" style="--c: var(--hg);">Halogens</li>
+        <li class="k-hl" style="--c: var(--hl);">Noble gases</li>
+        <li class="k-la" style="--c: var(--la);">Lanthanides</li>
+        <li class="k-ac" style="--c: var(--ac);">Actinides</li>
+    </ul>
+    <p class="hint">If you are on a phone swipe the table to the side so you can see properly.</p>
+    <div class="scroll">
+        <div class="table">
+
+            <!-- The first period -->
+            <div class="el nm" tabindex="0"><i>1</i><b>H</b><span>Hydrogen<br>Atomic mass = 1.008</span></div>
+            <div class="gap" style="--n:16"></div>
+            <!-- Gives a 16 element gap because hydron and helium are not in the same column -->
+            <div class="el ng" tabindex="0"><i>2</i><b>He</b><span>Helium<br>Atomic mass = 4.003</span></div>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    /* the colours */
+
+    :root {
+        --bg: #dedfdde9;
+        --text: #1c1919;
+        --card: #f5f5f5;
+        --muted: #a9a9a9;
+
+        --am: #4fa75f;
+        /*Alkali metals*/
+        --ml: #96773a;
+        /*alkaline earth metals*/
+        --ac: #765545;
+        /*transition metals*/
+        --aem: #ffb;
+        /*post transition metals*/
+        --rnm: rgb(104, 117, 238);
+        /*metalloids*/
+        --ptt: rgb(189, 153, 210);
+        /*halogens*/
+        --nm: rgb(234, 121, 121);
+        /*non metals*/
+        --hl: #bf9b9b;
+        /*noble gases*/
+        --ng: #f48fb1;
+        /*actinades */
+        --la: #c0df9d;
+        /*lanthanides */
+
+        --wobble: 255px 15px 225px 15px / 15px 225px 15px 255px;
+        /*drawn by hand design not accurate rn*/
+
+    }
