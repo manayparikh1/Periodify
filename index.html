@@ -178,6 +178,7 @@
         :root {
             --colouring: #341836;
             --main: #5e5468;
+            --papercolor: #fdf6e3;
 
             --ak: #fc8760;
             --ae: #e7c063;
@@ -190,4 +191,23 @@
             --la: #e7ad83;
             --ac: #a8d09b;
         }
-    </style>
+
+        /* The page (looks) (its gonna look like a notebook)*/
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 23px 16.6px 48.5px;
+            background: var(--papercolor);
+            color: var(--colouring);
+            font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", "Chalkboard SE", cursive;
+            line-height: 1.67;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
