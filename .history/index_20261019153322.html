@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodify</title>
+</head>
+
+<body>
+    <!-- === HTML STARTS here===-->
+    <header>
+        <h1>Period<span>ify</span></h1>
+        <p>Hover (or tap) an element and you can hover over the legend to isolate that specific group.</p>
+    </header>
+    <!-- === Legend === -->
+    <ul class="legend">
+        <li class="k-ak" style="--c: var(--ak);">Alkali metals</li>
+        <li class="k-ae" style="--c: var(--ae);">Alkaline earth metals</li>
+        <li class="k-tm" style="--c: var(--tm);">Transition metals</li>
+        <li class="k-pt" style="--c: var(--pt);">Post-transition metals</li>
+        <li class="k-md" style="--c: var(--md);">Metalloids</li>
+        <li class="k-nm" style="--c: var(--nm);">Nonmetals</li>
+        <li class="k-hg" style="--c: var(--hg);">Halogens</li>
+        <li class="k-hl" style="--c: var(--hl);">Noble gases</li>
+        <li class="k-la" style="--c: var(--la);">Lanthanides</li>
+        <li class="k-ac" style="--c: var(--ac);">Actinides</li>
+    </ul>
+    <p class="hint">If you are on a phone swipe the table to the side so you can see properly.</p>
+    <div class="scroll">
+        <div class="table">
+
+            <!-- The first period -->
+            <div class="el nm" tabindex="0"><i>1</i><b>H</b><span>Hydrogen<br>Atomic mass = 1.008</span></div>
+            <div class="gap" style="--n:16"></div>
+            <!-- Gives a 16 element gap because hydron and helium are not in the same column -->
+            <div class="el ng" tabindex="0"><i>2</i><b>He</b><span>Helium<br>Atomic mass = 4.003</span></div>
+            <!-- The second period -->
+            <div class="el ak" tabindex="0"><i>3</i><b>Li</b><span>Lithium<br>Atomic mass = 6.94</span></div>
+            <div class="el ae" tabindex="0"><i>4</i><b>Be</b><span>Beryllium<br>Atomic mass = 9.012</span></div>
+            <div class="gap" style="--n:10"></div>
+            <div class="el md" tabindex="0"><i>5</i><b>B</b><span>Boron<br>Atomic mass = 10.81</span></div>
+            <div class="el nm" tabindex="0"><i>6</i><b>C</b><span>Carbon<br>Atomic mass = 12.01</span></div>
+            <div class="el nm" tabindex="0"><i>7</i><b>N</b><span>Nitrogen<br>Atomic mass = 14.01</span></div>
+            <div class="el nm" tabindex="0"><i>8</i><b>O</b><span>Oxygen<br>Atomic mass = 16.00</span></div>
+            <div class="el hg" tabindex="0"><i>9</i><b>F</b><span>Fluorine<br>Atomic mass = 19.00</span></div>
+            <div class="el ng" tabindex="0"><i>10</i><b>Ne</b><span>Neon<br>Atomic mass = 20.18</span></div>
+            <!-- The third period -->
+            <div class="el ak" tabindex="0"><i>11</i><b>Na</b><span>Sodium<br>Atomic mass = 22.99</span></div>
+            <div class="el ae" tabindex="0"><i>12</i><b>Mg</b><span>Magnesium<br>Atomic mass = 24.31</span></div>
+            <div class="gap" style="--n:10"></div>
+            <div class="el md" tabindex="0"><i>13</i><b>Al</b><span>Aluminum<br>Atomic mass = 26.98</span></div>
+            <div class="el nm" tabindex="0"><i>14</i><b>Si</b><span>Silicon<br>Atomic mass = 28.09</span></div>
+            <div class="el nm" tabindex="0"><i>15</i><b>P</b><span>Phosphorus<br>Atomic mass = 30.97</span></div>
+            <div class="el nm" tabindex="0"><i>16</i><b>S</b><span>Sulfur<br>Atomic mass = 32.06</span></div>
+            <div class="el hg" tabindex="0"><i>17</i><b>Cl</b><span>Chlorine<br>Atomic mass = 35.45</span></div>
+            <div class="el ng" tabindex="0"><i>18</i><b>Ar</b><span>Argon<br>Atomic mass = 39.95</span></div>
+            <!-- the fourth period -->
+            <div class="el ak" tabindex="0"><i>19</i><b>K</b><span>Potassium<br>Atomic mass = 39.09</span></div>
+            <div class="el ae" tabindex="0"><i>20</i><b>Ca</b><span>Calcium<br>Atomic mass = 40.08</span></div>
+            <div class="el tm" tabindex="0"><i>21</i><b>Sc</b><span>Scandium<br>Atomic mass = 44.96</span></div>
+            <div class="el tm" tabindex="0"><i>22</i><b>Ti</b><span>Titanium<br>Atomic mass = 47.87</span></div>
+            <div class="el tm" tabindex="0"><i>23</i><b>V</b><span>Vanadium<br>Atomic mass = 50.94</span></div>
+            <div class="el tm" tabindex="0"><i>24</i><b>Cr</b><span>Chromium<br>Atomic mass = 52.00</span></div>
+            <div class="el tm" tabindex="0"><i>25</i><b>Mn</b><span>Manganese<br>Atomic mass = 54.94</span></div>
+            <div class="el tm" tabindex="0"><i>26</i><b>Fe</b><span>Iron<br>Atomic mass = 55.85</span></div>
+            <div class="el tm" tabindex="0"><i>27</i><b>Co</b><span>Cobalt<br>Atomic mass = 58.93</span></div>
+            <div class="el tm" tabindex="0"><i>28</i><b>Ni</b><span>Nickel<br>Atomic mass = 58.69</span></div>
+            <div class="el tm" tabindex="0"><i>29</i><b>Cu</b><span>Copper<br>Atomic mass = 63.55</span></div>
+            <div class="el tm" tabindex="0"><i>30</i><b>Zn</b><span>Zinc<br>Atomic mass = 65.38</span></div>
+            <div class="el pt" tabindex="0"><i>31</i><b>Ga</b><span>Gallium<br>Atomic mass = 69.72</span></div>
+            <div class="el md" tabindex="0"><i>32</i><b>Ge</b><span>Germanium<br>Atomic mass = 72.63</span></div>
+            <div class="el md" tabindex="0"><i>33</i><b>As</b><span>Arsenic<br>Atomic mass = 74.92</span></div>
+            <div class="el nm" tabindex="0"><i>34</i><b>Se</b><span>Selenium<br>Atomic mass = 78.96</span></div>
+            <div class="el hg" tabindex="0"><i>35</i><b>Br</b><span>Bromine<br>Atomic mass = 79.90</span></div>
+            <div class="el ng" tabindex="0"><i>36</i><b>Kr</b><span>Krypton<br>Atomic mass = 83.80</span></div>
+            <!-- the fifth period -->
+            <div class="el ak" tabindex="0"><i>37</i><b>Rb</b><span>Rubidium<br>Atomic mass = 85.47</span></div>
+            <div class="el ae" tabindex="0"><i>38</i><b>Sr</b><span>Strontium<br>Atomic mass = 87.62</span></div>
+            <div class="el tm" tabindex="0"><i>39</i><b>Y</b><span>Yttrium<br>Atomic mass = 88.91</span></div>
+            <div class="el tm" tabindex="0"><i>40</i><b>Zr</b><span>Zirconium<br>Atomic mass = 91.22</span></div>
+            <div class="el tm" tabindex="0"><i>41</i><b>Nb</b><span>Niobium<br>Atomic mass = 92.91</span></div>
+            <div class="el tm" tabindex="0"><i>42</i><b>Mo</b><span>Molybdenum<br>Atomic mass = 95.95</span></div>
+            <div class="el tm" tabindex="0"><i>43</i><b>Tc</b><span>Technetium<br>Atomic mass = 98.00</span></div>
+            <div class="el tm" tabindex="0"><i>44</i><b>Ru</b><span>Ruthenium<br>Atomic mass = 101.07</span></div>
+            <div class="el tm" tabindex="0"><i>44</i><b>Rh</b><span>Rhodium<br>Atomic mass = 102.91</span></div>
+            <div class="el tm" tabindex="0"><i>45</i><b>Pd</b><span>Palladium<br>Atomic mass = 106.42</span></div>
+            <div class="el tm" tabindex="0"><i>46</i><b>Ag</b><span>Silver<br>Atomic mass = 107.87</span></div>
+            <div class="el tm" tabindex="0"><i>47</i><b>Cd</b><span>Cadmium<br>Atomic mass = 112.41</span></div>
+            <div class="el pt" tabindex="0"><i>49</i><b>In</b><span>Indium<br>Atomic mass = 114.82</span></div>
+            <div class="el pt" tabindex="0"><i>50</i><b>Sn</b><span>Tin<br>Atomic mass = 118.71</span></div>
+            <div class="el md" tabindex="0"><i>51</i><b>Sb</b><span>Antimony<br>Atomic mass = 121.76</span></div>
+            <div class="el md" tabindex="0"><i>52</i><b>Te</b><span>Tellurium<br>Atomic mass = 127.60</span></div>
+            <div class="el hg" tabindex="0"><i>53</i><b>I</b><span>Iodine<br>Atomic mass = 126.90</span></div>
+            <div class="el ng" tabindex="0"><i>54</i><b>Xe</b><span>Xenon<br>Atomic mass = 131.29</span></div>
+            <!-- the sixth period -->
+            <div class="el ak" tabindex="0"><i>55</i><b>Cs</b><span>Caesium<br>Atomic mass = 132.91</span></div>
+            <div class="el ae" tabindex="0"><i>56</i><b>Ba</b><span>Barium<br>Atomic mass = 137.33</span></div>
+            <!-- this is the gap for the lanthanoids  group (goes to hafnium straight)-->
+            <div class="gap" style="--n:1"></div>
+            <div class="el tm" tabindex="0"><i>72</i><b>Hf</b><span>Hafnium<br>Atomic mass = 178.49</span></div>
+            <div class="el tm" tabindex="0"><i>73</i><b>Ta</b><span>Tantalum<br>Atomic mass = 180.95</span></div>
+            <div class="el tm" tabindex="0"><i>74</i><b>Tungsten</b><span>Tungsten<br>Atomic mass = 183.84</span></div>
+            <div class="el tm" tabindex="0"><i>75</i><b>Re</b><span>Rhenium<br>Atomic mass = 186.21</span></div>
+            <div class="el tm" tabindex="0"><i>76</i><b>Os</b><span>Osmium<br>Atomic mass = 190.23</span></div>
+            <div class="el tm" tabindex="0"><i>77</i><b>Ir</b><span>Iridium<br>Atomic mass = 192.22</span></div>
+            <div class="el tm" tabindex="0"><i>78</i><b>Pt</b><span>Platinum<br>Atomic mass = 195.08</span></div>
+            <div class="el tm" tabindex="0"><i>79</i><b>Au</b><span>Gold<br>Atomic mass = 196.97</span></div>
+            <div class="el tm" tabindex="0"><i>80</i><b>Hg</b><span>Mercury<br>Atomic mass = 200.59</span></div>
+            <div class="el pt" tabindex="0"><i>81</i><b>Tl</b><span>Thallium<br>Atomic mass = 204.38</span></div>
+            <div class="el pt" tabindex="0"><i>82</i><b>Pb</b><span>Lead<br>Atomic mass = 207.2</span></div>
+            <div class="el pt" tabindex="0"><i>83</i><b>Bi</b><span>Bismuth<br>Atomic mass = 208.98</span></div>
+            <div class="el md" tabindex="0"><i>84</i><b>Po</b><span>Polonium<br>Atomic mass = 209.00</span></div>
+            <div class="el hg" tabindex="0"><i>85</i><b>At</b><span>Astatine<br>Atomic mass = 209.99</span></div>
+            <div class="el ng" tabindex="0"><i>86</i><b>Rn</b><span>Radon<br>Atomic mass = 222.00</span></div>
+            <!-- the seventh period -->
+            <div class="el ak" tabindex="0"><i>87</i><b>Fr</b><span>Francium<br>Atomic mass = 223.00</span></div>
+            <div class="el ae" tabindex="0"><i>88</i><b>Ra</b><span>Radium<br>Atomic mass = 226.00</span></div>
+            <!-- this gap is the space for the Actinide block -->
+            <div class="gap" style="--n:1"></div>
+            <div class="el tm" tabindex="0"><i>104</i><b>Rf</b><span>Rutherfordium<br>Atomic mass = 267.00</span></div>
+            <div class="el tm" tabindex="0"><i>105</i><b>Db</b><span>Dubnium<br>Atomic mass = 268.00</span></div>
+            <div class="el tm" tabindex="0"><i>106</i><b>Sg</b><span>Seaborgium<br>Atomic mass = 269.00</span></div>
+            <div class="el tm" tabindex="0"><i>107</i><b>Bh</b><span>Bhorium<br>Atomic mass = 270.00</span></div>
+            <div class="el tm" tabindex="0"><i>108</i><b>Hs</b><span>Hassium<br>Atomic mass = 270.00</span></div>
+            <div class="el tm" tabindex="0"><i>109</i><b>Mt</b><span>Meitnerium<br>Atomic mass = 278.00</span></div>
+            <div class="el tm" tabindex="0"><i>110</i><b>Ds</b><span>Darmstadtium<br>Atomic mass = 281.00</span></div>
+            <div class="el tm" tabindex="0"><i>111</i><b>Rg</b><span>Roentgenium<br>Atomic mass = 282.00</span></div>
+            <div class="el tm" tabindex="0"><i>112</i><b>Cn</b><span>Copernicium<br>Atomic mass = 285.00</span></div>
+            <div class="el pt" tabindex="0"><i>113</i><b>Nh</b><span>Nihonium<br>Atomic mass = 286.00</span></div>
+            <div class="el pt" tabindex="0"><i>114</i><b>Fl</b><span>Flerovium<br>Atomic mass = 289.00</span></div>
+            <div class="el pt" tabindex="0"><i>115</i><b>Mc</b><span>Moscovium<br>Atomic mass = 290.00</span></div>
+            <div class="el pt" tabindex="0"><i>116</i><b>Lv</b><span>Livermorium<br>Atomic mass = 293.00</span></div>
+            <div class="el hg" tabindex="0"><i>117</i><b>Ts</b><span>Tennessine<br>Atomic mass = 294.00</span></div>
+            <div class="el hg" tabindex="0"><i>118</i><b>Og</b><span>Oganesson<br>Atomic mass = 294.00</span></div>
+            <!-- the lanthanoids -->
+            <div class="gap" style="--n:2"></div>
+            <div class="el la" tabindex="0"><i>57</i><b>La</b><span>Lanthanum<br>Atomic mass = 138.91</span></div>
+            <div class="el la" tabindex="0"><i>58</i><b>Ce</b><span>Cerium<br>Atomic mass = 140.12</span></div>
+            <div class="el la" tabindex="0"><i>59</i><b>Pr</b><span>Praseodymium<br>Atomic mass = 140.91</span></div>
+            <div class="el la" tabindex="0"><i>60</i><b>Nd</b><span>Neodymium<br>Atomic mass = 144.24</span></div>
+            <div class="el la" tabindex="0"><i>61</i><b>Pm</b><span>Promethium<br>Atomic mass = 145.00</span></div>
+            <div class="el la" tabindex="0"><i>62</i><b>Sm</b><span>Samarium<br>Atomic mass = 150.36</span></div>
+            <div class="el la" tabindex="0"><i>63</i><b>Eu</b><span>Europium<br>Atomic mass = 151.96</span></div>
+            <div class="el la" tabindex="0"><i>64</i><b>Gd</b><span>Gadollinium<br>Atomic mass = 157.25</span></div>
+            <div class="el la" tabindex="0"><i>65</i><b>Tb</b><span>Terbium<br>Atomic mass = 158.93</span></div>
+            <div class="el la" tabindex="0"><i>66</i><b>Dy</b><span>Dysprosium<br>Atomic mass = 162.50</span></div>
+            <div class="el la" tabindex="0"><i>67</i><b>Ho</b><span>Holmium<br>Atomic mass = 164.93</span></div>
+            <div class="el la" tabindex="0"><i>68</i><b>Er</b><span>Erbium<br>Atomic mass = 167.26</span></div>
+            <div class="el la" tabindex="0"><i>69</i><b>Tm</b><span>Thulium<br>Atomic mass = 168.93</span></div>
+            <div class="el la" tabindex="0"><i>70</i><b>Yb</b><span>Ytterbium<br>Atomic mass = 173.05</span></div>
+            <div class="el la" tabindex="0"><i>71</i><b>Lu</b><span>Lutetium<br>Atomic mass = 174.97</span></div>
+            <div class="gap" style="--n:1"></div>
+
+            <!-- the actinides section -->
+            <div class="gap" style="--n:2"></div>
+            <div class="el ac" tabindex="0"><i>89</i><b>Ac</b><span>Actinium<br>Atomic mass = 227.00</span></div>
+            <div class="el ac" tabindex="0"><i>90</i><b>Th</b><span>Thorium<br>Atomic mass = 232.04</span></div>
+            <div class="el ac" tabindex="0"><i>91</i><b>Pa</b><span>Protactinium<br>Atomic mass = 231.04</span></div>
+            <div class="el ac" tabindex="0"><i>92</i><b>U</b><span>Uranium<br>Atomic mass = 238.03</span></div>
+            <div class="el ac" tabindex="0"><i>93</i><b>Np</b><span>Neptunium<br>Atomic mass = 237.00</span></div>
+            <div class="el ac" tabindex="0"><i>94</i><b>Pu</b><span>Plutonium<br>Atomic mass = 244.00</span></div>
+            <div class="el ac" tabindex="0"><i>95</i><b>Am</b><span>Americium<br>Atomic mass = 243.00</span></div>
+            <div class="el ac" tabindex="0"><i>96</i><b>Cm</b><span>Curium<br>Atomic mass = 247.00</span></div>
+            <div class="el ac" tabindex="0"><i>97</i><b>Bk</b><span>Berkelium<br>Atomic mass = 247.00</span></div>
+            <div class="el ac" tabindex="0"><i>98</i><b>Cf</b><span>Californium<br>Atomic mass = 251.00</span></div>
+            <div class="el ac" tabindex="0"><i>99</i><b>Ef</b><span>Einsteinium<br>Atomic mass = 252.00</span></div>
+            <div class="el ac" tabindex="0"><i>100</i><b>Fm</b><span>Fermium<br>Atomic mass = 257.00</span></div>
+            <div class="el ac" tabindex="0"><i>101</i><b>Md</b><span>Mendelevium<br>Atomic mass = 258.00</span></div>
+            <div class="el ac" tabindex="0"><i>102 </i><b>No </b><span>Nobelium<br>Atomic mass = 259.00</span></div>
+            <div class="el ac" tabindex="0"><i>103</i><b>Lr</b><span>Lawrencium<br>Atomic mass = 266.00</span></div>
+            <div class="gap" style="--n:1"></div>
+        </div>
+    </div>
+
+    <!-- the HTML ENDS here and css starts=== -->
+    <style>
+        :root {
+            --colouring: #341836;
+            --main: #5e5468;
+            --papercolor: #fdf6e3;
+
+            --ak: #fc8760;
+            --ae: #eac46c;
+            --tm: #73d073;
+            --pt: #94e4cc;
+            --md: #7deeff;
+            --nm: #90aafa;
+            --hl: #cf9fff;
+            --ng: #ef9ec1;
+            --la: #e7ad83;
+            --ac: #a8d09b;
+        }
+
+        /* The page (looks) (its gonna look like a notebook)*/
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 23px 16.6px 48.5px;
+            background: var(--papercolor);
+            color: var(--colouring);
+            font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", "Chalkboard SE", cursive;
+            line-height: 1.67;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 37px;
+            letter-spacing: 3.5px;
+        }
+
+        h1 span {
+            background: var(--ae);
+        }
+
+        header p {
+            margin: 5.5px 0 0;
+            color: var(--main);
+        }
+
+        /* -- the periodic table part -- */
+        .scroll {
+            overflow-x: auto;
+            padding: 11.5px 11px 130px;
+        }
+
+        .table {
+            display: grid;
+            grid-template-columns: repeat(18, minmax(54px, 1fr));
+            gap: 4.6px;
+            min-width: 1060px;
+            max-width: 1414px;
+            margin: 0 auto;
+        }
+
+        .gap {
+            grid-column: span var(--n);
+        }
+
+        .gap.row {
+            height: 14px;
+        }
+
+        .el {
+            position: relative;
+            aspect-ratio: 1/1;
+            border: 1.4px solid var(--main);
+            padding: 4px 5px;
+            /*basically each elements box size*/
+            cursor: pointer;
+        }
+
+        .el i {
+            font-style: normal;
+            font-size: 0.77rem;
+            display: block;
+        }
+
+        .el b {
+            display: block;
+            font-size: 1.234rem;
+            text-align: center;
+            line-height: 1.23;
+        }
+
+
+        /* thing willl basically stay hidden unless u hover or tap a title*/
+
+        .el span {
+
+            display: none;
+            position: absolute;
+            top: 110%;
+            left: 55%;
+            transform: translateX(-45%);
+            width: 148px;
+            padding: 8.5px 10.5px;
+            background: #caf4cb;
+            border: 1.65px solid var(--main);
+            font-size: 0.74rem;
+            text-align: center;
+            z-index: 10;
+        }
