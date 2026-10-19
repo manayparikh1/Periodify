@@ -100,7 +100,7 @@
             <div class="gap" style="--n:1"></div>
             <div class="el tm" tabindex="0"><i>72</i><b>Hf</b><span>Hafnium<br>Atomic mass = 178.49</span></div>
             <div class="el tm" tabindex="0"><i>73</i><b>Ta</b><span>Tantalum<br>Atomic mass = 180.95</span></div>
-            <div class="el tm" tabindex="0"><i>74</i><b>Tungsten</b><span>Tungsten<br>Atomic mass = 183.84</span></div>
+            <div class="el tm" tabindex="0"><i>74</i><b>W</b><span>Tungsten<br>Atomic mass = 183.84</span></div>
             <div class="el tm" tabindex="0"><i>75</i><b>Re</b><span>Rhenium<br>Atomic mass = 186.21</span></div>
             <div class="el tm" tabindex="0"><i>76</i><b>Os</b><span>Osmium<br>Atomic mass = 190.23</span></div>
             <div class="el tm" tabindex="0"><i>77</i><b>Ir</b><span>Iridium<br>Atomic mass = 192.22</span></div>
@@ -178,7 +178,7 @@
         :root {
             --colouring: #341836;
             --main: #5e5468;
-            --papercolor: #fdf6e3;
+            --papercolor: #f4eacf;
 
             --ak: #fc8760;
             --ae: #eac46c;
@@ -288,5 +288,10 @@
             border: 1.65px solid var(--main);
             font-size: 0.74rem;
             text-align: center;
-            z-index: 10;
+            z-index: 9.5;
+        }
+
+        .el:hover span,
+        .el:focus span {
+            display: block;
         }
