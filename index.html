@@ -10,7 +10,7 @@
 <body>
     <!-- === HTML STARTS here===-->
     <header>
-        <h1>Period<span>ify</span></h1>
+        <h1>Period<span>IFY</span></h1>
         <p>Hover (or tap) an element and you can hover over the legend to isolate that specific group.</p>
     </header>
     <!-- === Legend === -->
@@ -26,7 +26,8 @@
         <li class="k-la" style="--c: var(--la);">Lanthanides</li>
         <li class="k-ac" style="--c: var(--ac);">Actinides</li>
     </ul>
-    <p class="hint">If you are on a phone swipe the table to the side so you can see properly.</p>
+    <p class="hint">If you are on a phone or even a tablet then swipe the table to the side so you can see better. And
+        if you want scroll to the bottom and you can do a quick test to see your understanding. 🧪🔬⚛️</p>
     <div class="scroll">
         <div class="table">
 
@@ -97,7 +98,7 @@
             <div class="el ak" tabindex="0"><i>55</i><b>Cs</b><span>Caesium<br>Atomic mass = 132.91</span></div>
             <div class="el ae" tabindex="0"><i>56</i><b>Ba</b><span>Barium<br>Atomic mass = 137.33</span></div>
             <!-- this is the gap for the lanthanoids  group (goes to hafnium straight)-->
-            <div class="gap" style="--n:1"></div>
+            <div class="el " tabindex="0"><i></i><b></b><span>Lanthanoids<br>57-71</span></div>
             <div class="el tm" tabindex="0"><i>72</i><b>Hf</b><span>Hafnium<br>Atomic mass = 178.49</span></div>
             <div class="el tm" tabindex="0"><i>73</i><b>Ta</b><span>Tantalum<br>Atomic mass = 180.95</span></div>
             <div class="el tm" tabindex="0"><i>74</i><b>W</b><span>Tungsten<br>Atomic mass = 183.84</span></div>
@@ -117,7 +118,7 @@
             <div class="el ak" tabindex="0"><i>87</i><b>Fr</b><span>Francium<br>Atomic mass = 223.00</span></div>
             <div class="el ae" tabindex="0"><i>88</i><b>Ra</b><span>Radium<br>Atomic mass = 226.00</span></div>
             <!-- this gap is the space for the Actinide block -->
-            <div class="gap" style="--n:1"></div>
+            <div class="el " tabindex="0"><i></i><b></b><span>Actinides<br>89-103</span></div>
             <div class="el tm" tabindex="0"><i>104</i><b>Rf</b><span>Rutherfordium<br>Atomic mass = 267.00</span></div>
             <div class="el tm" tabindex="0"><i>105</i><b>Db</b><span>Dubnium<br>Atomic mass = 268.00</span></div>
             <div class="el tm" tabindex="0"><i>106</i><b>Sg</b><span>Seaborgium<br>Atomic mass = 269.00</span></div>
@@ -173,6 +174,16 @@
         </div>
     </div>
 
+    <!-- === The quiz part === -->
+    <section class="quiz">
+        <h2>Quick Test 🧪</h2>
+        <p id="quiz-q"></p>
+        <div id="quiz-choices"></div>
+        <p id="quiz-feedback"></p>
+        <button id="quiz-next" hidden>Next question</button>
+        <p id="quiz-score"></p>
+    </section>
+
     <!-- the HTML ENDS here and css starts=== -->
     <style>
         :root {
@@ -181,7 +192,7 @@
             --papercolor: #f4eacf;
 
             --ak: #fc8760;
-            --ae: #eac46c;
+            --ae: #f3d693;
             --tm: #73d073;
             --pt: #94e4cc;
             --md: #7deeff;
@@ -215,7 +226,7 @@
         h1 {
             text-align: center;
             margin-bottom: 37px;
-            letter-spacing: 3.5px;
+            letter-spacing: 5.6px;
         }
 
         h1 span {
@@ -337,3 +348,32 @@
         .ac {
             background: var(--ac);
         }
+
+        /* the legend part */
+
+        .legend {
+            list-style: none;
+            /*takes away numbered list*/
+            display: flex;
+            flex-wrap: wrap;
+            /*organizes the legend*/
+            justify-content: center;
+            gap: 7.5px 20px;
+            padding: 0;
+        }
+
+        .legend li {
+            display: flex;
+            align-items: center;
+            gap: 5.6px;
+        }
+
+        .legend li::before {
+            content: "";
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--c);
+        }
+
+        /*the quiz function*/
