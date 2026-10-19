@@ -228,3 +228,31 @@
         }
 
         /* -- the periodic table part -- */
+        .scroll {
+            overflow-x: auto;
+            padding: 11.5px 11px 130px;
+        }
+
+        .table {
+            display: grid;
+            grid-template-columns: repeat(18, minmax(54px, 1fr));
+            gap: 4.6px;
+            min-width: 1060px;
+            max-width: 1414px;
+            margin: 0 auto;
+        }
+
+        .gap {
+            grid-column: span var(--n);
+        }
+
+        .gap.row {
+            height: 14px;
+        }
+
+        .el {
+            position: relative;
+            aspect-ratio: 1/1;
+            border: 1.4px solid var(--main);
+
+        }
