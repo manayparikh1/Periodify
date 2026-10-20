@@ -176,10 +176,10 @@
     </div>
 
 
-    <!-- the quiz section with around 8 questions-->
+    <!-- the quiz section with around 7 questions-->
     <section class="Quiz">
-        <h2>Easy Test</h2>
-        <p>Click a question to see the answer too...!!!</p>
+        <h2>Simple Periodic Table Quiz (7 Questions)</h2>
+        <p>Click a question for the answer and try guessing the answer beforehand to learn.</p>
 
         <details>
             <summary>What is the atomic number for Oxygen??</summary>
@@ -396,3 +396,25 @@
         }
 
         /*the quiz function*/
+
+
+        .Quiz {
+            margin: 40px;
+        }
+
+        .Quiz details {
+            font-size: 1.2rem;
+            border: 2px solid var(--main);
+            /*Gives a box */
+            padding: 10px 14px;
+            /*spacing in the box*/
+            margin-bottom: 10px;
+            /*spacing between the boxes*/
+            background: rgb(249, 196, 196);
+        }
+
+        .quiz summary {
+            font-weight: bold;
+            cursor: pointer;
+            /*js shows that its clickable*/
+        }
