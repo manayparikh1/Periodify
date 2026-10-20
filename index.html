@@ -209,221 +209,270 @@
             <summary>Is Hafnium a a transition metal? Yes or No?</summary>
             <p>Yes Hafnium is a transition metal.</p>
         </details>
-    </section>
 
-    <!-- the HTML ENDS here and css starts=== -->
-    <style>
-        :root {
-            --colouring: #341836;
-            --main: #5e5468;
-            --papercolor: #f4eacf;
+        <!-- the fun fact section-->
+        <section class="funfacts">
+            <h2>
+                Fun Facts about the Periodic Table
+            </h2>
+            <ul> <!-- List of fun facts () -->
+                <li>Hydrogen (H) is the lightest element in the periodic table.</li>
+                <li>Lithium (Li) is the lightest metal in the periodic table.</li>
+                <li>The creator of the periodic table is Dmitri Mendeleev.</li>
+                <li>Aluminium (Al) was once rarer than silver, and now is the Earth's crust most abundant metal.</li>
+                <li>A little bit of potassium is present in Bananas, and potassium is naturally radioactive.</li>
+                <li>Chlorine (Cl) is a halogen and it was used in WW1 as a weapon and now it is used for disinfecting
+                    water, like what you see in the pool.</li>
+                <li>Organesson or Og is the heaviest element in the periodic table.</li>
+                <li>Francium is considered to be the second rarest metal in the earths crust and there is an estimate of
+                    less than <strong>ONE OUNCE</strong> of it on the planet.</li>
+                <li>Mercury is bascally an element that is a liquid and it is room temperature and can break laptops if
+                    a bit is drizzled on one, which is crazy because if you put it on your hand it doesent have that
+                    much affect.</li>
+                <li>Gold or Au, also known as aurum based on latin roots is super expensive and all gold on earth came
+                    from ancient meteorites and also supernovas, which is crazy considering the amount there is on
+                    Earth.</li>
+                <li>Gallium (Ga) has a melting point of approx 29.7 degrees celcius and that means that if you put it on
+                    your hand it will literally melt super easily because the human body temperature sits around 37
+                    degrees celcius.</li>
+                <li>The rarest element is called Astatine and there is very less of it on the Earth's surface.</li>
+                <li>Sulfer (S) is found in Earth's crust, is a nonmetal, and also it gives the planet Jupiters volcanic
+                    moon the colour it gets, which is yellow, but a distinct shade.</li>
+                <li>Oxygen (O) is the third-most abundant element surprisngly and in the universe it looks blue in both
+                    liquid and solid states (thats why in cartoons they make oxygen blue when people are breathing in
+                    LOL).</li>
+                <li>Nitrogen (N) makes up a whopping 78% of the Earth's atmosphere and it is also used in liquid form,
+                    which is called liquid nitrogen.</li>
+                <li>Carbon (C) is super and we as students use it everyday, like in our pencils (the graphite is made of
+                    carbon), and its also present in diamonds.</li>
+                <li>Dysropsium (Dy) is legit named "hard to get" and it was discovered in 1886 and was obviously "hard
+                    to get" lol.</li>
+                <li>Diamonds are made up of carbon, which is arranged in a specific crystal structure for it to look
+                    like a diamond.</li>
+                <li>Antimony was used as a laxative in the past and was reused by an entire family generation to
+                    generation by retrieving it from the toilet.</li>
+                <li>Krypton (Kr) was used in secret for the cold-war and it is a radioactive gas, which hurt people.
+                </li>
+                <li>Phosphorus (P) was accidentally discovered by an alchemist boling down 1500 gallons of human urine
+                    while trying to extract gold. Lol.</li>
 
-            --ak: #fc8760;
-            --ae: #f3d693;
-            --tm: #73d073;
-            --pt: #94e4cc;
-            --md: #7deeff;
-            --nm: #90aafa;
-            --hl: #cf9fff;
-            --hg: #ef9ec1;
-            --la: #e7ad83;
-            --ac: #a8d09b;
-        }
-
-        /* The page (looks) (its gonna look like a notebook)*/
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            padding: 23px 16.6px 48.5px;
-            background: var(--papercolor);
-            color: var(--colouring);
-            font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", "Chalkboard SE", cursive;
-            line-height: 1.67;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 25px;
-        }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 37px;
-            letter-spacing: 5.6px;
-        }
-
-        h1 span {
-            background: var(--ae);
-        }
-
-        header p {
-            margin: 5.5px 0 0;
-            color: var(--main);
-        }
-
-        /* -- the periodic table part -- */
-        .scroll {
-            overflow-x: auto;
-            padding: 11.5px 11px 130px;
-        }
-
-        .table {
-            display: grid;
-            grid-template-columns: repeat(18, minmax(54px, 1fr));
-            gap: 4.6px;
-            min-width: 1060px;
-            max-width: 1414px;
-            margin: 0 auto;
-        }
-
-        .gap {
-            grid-column: span var(--n);
-        }
-
-        .gap.row {
-            height: 14px;
-        }
-
-        .el {
-            position: relative;
-            aspect-ratio: 1/1;
-            border: 1.4px solid var(--main);
-            padding: 4px 5px;
-            /*basically each elements box size*/
-            cursor: pointer;
-        }
-
-        .el i {
-            font-style: normal;
-            font-size: 0.77rem;
-            display: block;
-        }
-
-        .el b {
-            display: block;
-            font-size: 1.2rem;
-            text-align: center;
-            line-height: 1.2;
-        }
+            </ul>
+        </section>
 
 
-        /* thing willl basically stay hidden unless u hover or tap a title*/
+        <!-- the HTML ENDS here and css starts=== -->
+        <style>
+            :root {
+                --colouring: #341836;
+                --main: #5e5468;
+                --papercolor: #f4eacf;
 
-        .el span {
+                --ak: #fc8760;
+                --ae: #f3d693;
+                --tm: #73d073;
+                --pt: #94e4cc;
+                --md: #7deeff;
+                --nm: #90aafa;
+                --hl: #cf9fff;
+                --hg: #ef9ec1;
+                --la: #e7ad83;
+                --ac: #a8d09b;
+            }
 
-            display: none;
-            position: absolute;
-            top: 110%;
-            left: -45%;
-            transform: translateX(-45%);
-            width: 148px;
-            padding: 8.5px 10.5px;
-            background: #caf4cb;
-            border: 1.65px solid var(--main);
-            font-size: 0.74rem;
-            text-align: center;
-            z-index: 9;
-        }
+            /* The page (looks) (its gonna look like a notebook)*/
 
-        .el:hover span,
-        .el:focus span {
-            display: block;
-        }
+            * {
+                box-sizing: border-box;
+            }
 
-        /*hovering colours*/
+            body {
+                margin: 0;
+                padding: 23px 16.6px 48.5px;
+                background: var(--papercolor);
+                color: var(--colouring);
+                font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", "Chalkboard SE", cursive;
+                line-height: 1.67;
+            }
 
-        .ak {
-            background: var(--ak);
-        }
+            header {
+                text-align: center;
+                margin-bottom: 25px;
+            }
 
-        .ae {
-            background: var(--ae);
-        }
+            h1 {
+                text-align: center;
+                margin-bottom: 37px;
+                letter-spacing: 5.6px;
+            }
 
-        .tm {
-            background: var(--tm);
-        }
+            h1 span {
+                background: var(--ae);
+            }
 
-        .pt {
-            background: var(--pt);
-        }
+            header p {
+                margin: 5.5px 0 0;
+                color: var(--main);
+            }
 
-        .md {
-            background: var(--md);
-        }
+            /* -- the periodic table part -- */
+            .scroll {
+                overflow-x: auto;
+                padding: 11.5px 11px 130px;
+            }
 
-        .nm {
-            background: var(--nm);
-        }
+            .table {
+                display: grid;
+                grid-template-columns: repeat(18, minmax(54px, 1fr));
+                gap: 4.6px;
+                min-width: 1060px;
+                max-width: 1414px;
+                margin: 0 auto;
+            }
 
-        .hg {
-            background: var(--hg);
-        }
+            .gap {
+                grid-column: span var(--n);
+            }
 
-        .ng {
-            background: var(--hl);
-        }
+            .gap.row {
+                height: 14px;
+            }
 
-        .la {
-            background: var(--la);
-        }
+            .el {
+                position: relative;
+                aspect-ratio: 1/1;
+                border: 1.4px solid var(--main);
+                padding: 4px 5px;
+                /*basically each elements box size*/
+                cursor: pointer;
+            }
 
-        .ac {
-            background: var(--ac);
-        }
+            .el i {
+                font-style: normal;
+                font-size: 0.77rem;
+                display: block;
+            }
 
-        /* the legend part */
-
-        .legend {
-            list-style: none;
-            /*takes away numbered list*/
-            display: flex;
-            flex-wrap: wrap;
-            /*organizes the legend*/
-            justify-content: center;
-            gap: 7.5px 20px;
-            padding: 0;
-        }
-
-        .legend li {
-            display: flex;
-            align-items: center;
-            gap: 5.6px;
-        }
-
-        .legend li::before {
-            content: "";
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            background: var(--c);
-        }
-
-        /*the quiz function*/
+            .el b {
+                display: block;
+                font-size: 1.2rem;
+                text-align: center;
+                line-height: 1.2;
+            }
 
 
-        .Quiz {
-            margin: 40px;
-        }
+            /* thing willl basically stay hidden unless u hover or tap a title*/
 
-        .Quiz details {
-            font-size: 1.2rem;
-            border: 2px solid var(--main);
-            /*Gives a box */
-            padding: 10px 14px;
-            /*spacing in the box*/
-            margin-bottom: 10px;
-            /*spacing between the boxes*/
-            background: rgb(249, 196, 196);
-        }
+            .el span {
 
-        .Quiz summary {
-            font-weight: bold;
-            cursor: pointer;
-            /*js shows that its clickable*/
-        }
-    </style>
+                display: none;
+                position: absolute;
+                top: 110%;
+                left: -45%;
+                transform: translateX(-45%);
+                width: 148px;
+                padding: 8.5px 10.5px;
+                background: #caf4cb;
+                border: 1.65px solid var(--main);
+                font-size: 0.74rem;
+                text-align: center;
+                z-index: 9;
+            }
+
+            .el:hover span,
+            .el:focus span {
+                display: block;
+            }
+
+            /*hovering colours*/
+
+            .ak {
+                background: var(--ak);
+            }
+
+            .ae {
+                background: var(--ae);
+            }
+
+            .tm {
+                background: var(--tm);
+            }
+
+            .pt {
+                background: var(--pt);
+            }
+
+            .md {
+                background: var(--md);
+            }
+
+            .nm {
+                background: var(--nm);
+            }
+
+            .hg {
+                background: var(--hg);
+            }
+
+            .ng {
+                background: var(--hl);
+            }
+
+            .la {
+                background: var(--la);
+            }
+
+            .ac {
+                background: var(--ac);
+            }
+
+            /* the legend part */
+
+            .legend {
+                list-style: none;
+                /*takes away numbered list*/
+                display: flex;
+                flex-wrap: wrap;
+                /*organizes the legend*/
+                justify-content: center;
+                gap: 7.5px 20px;
+                padding: 0;
+            }
+
+            .legend li {
+                display: flex;
+                align-items: center;
+                gap: 5.6px;
+            }
+
+            .legend li::before {
+                content: "";
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: var(--c);
+            }
+
+            /*the quiz function*/
+
+
+            .Quiz {
+                margin: 40px;
+            }
+
+            .Quiz details {
+                font-size: 1.2rem;
+                border: 2px solid var(--main);
+                /*Gives a box */
+                padding: 10px 14px;
+                /*spacing in the box*/
+                margin-bottom: 10px;
+                /*spacing between the boxes*/
+                background: rgb(249, 196, 196);
+            }
+
+            .Quiz summary {
+                font-weight: bold;
+                cursor: pointer;
+                /*js shows that its clickable*/
+            }
+        </style>
